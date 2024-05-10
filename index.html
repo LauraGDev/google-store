@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/google-logo.png" alt="logo-google" width="32" height="32" />
+        <nav class="nav-desktop">
+            <ul class="nav-enlaces list-style-none">
+                <li><a href="#">Phones</a></li>
+                <li><a href="#" class="active">Earbuds</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Smart Home</a></li>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Subscriptions</a></li>
+            </ul>
+        </nav>
+        <section class="iconos">
+            <a href="#"><img src="/images/icons/Search.svg" alt="buscar"></a>
+            <a href="#"><img src="/images/icons/Help.svg" alt="ayuda"></a>
+            <a href="#"><img src="/images/icons/cart.svg" alt="carrito"></a>
+            <a href="#"><img src="/images/icons/Avatar.svg" alt="mi perfil"></a>
+        </section>
+        <nav class="nav-mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>
+    </header>
+    <main>
+        <article class="producto">
+            <a class="atras" href="#"><img src="images/icons/Arrow.svg" alt="icono atrás"> See product details</a>
+            <section class="fotos">
+                <section class="selector-foto">
+                    <a href="#" class="miniatura flex-center"><img src="images/earbuds/earbuds_01.png"
+                            alt="Imagen 1 earbuds" width="48"></a>
+                    <a href="#" class="miniatura flex-center"><img src="images/earbuds/earbuds_02.png"
+                            alt="Imagen 2 earbuds" width="48"></a>
+                    <a href="#" class="miniatura flex-center"><img src="images/earbuds/earbuds_03.png"
+                            alt="Imagen 3 earbuds" width="48"></a>
+                    <a href="#" class="miniatura flex-center"><img src="images/earbuds/earbuds_04.png"
+                            alt="Imagen 4 earbuds" width="48"></a>
+                </section>
+                <section class="img-principal auriculares flex-center" aria-label="Imagen Google Pixel Buds Pro">
+                </section>
+            </section>
+            <section class="ficha-producto">
+                <section class="descripcion-producto">
+                    <h1>Google Pixel Buds Pro</h1>
+                    <p>Music & Sound</p>
+                    <h2>229€</h2>
+                </section>
+                <hr size="1">
+                <section class="personalizacion">
+                    <section class="selector-color">
+                        <p>Choose a color</p>
+                        <a href="#" class="miniatura colores" alt="color1" style="background-color: #9fc7ec;"></a>
+                        <a href="#" class="miniatura colores" alt="color2" style="background-color: #e7e3e0 ;"></a>
+                        <a href="#" class="miniatura colores" alt="color3" style="background-color: #4b4b4d;"></a>
+                        <a href="#" class="miniatura colores" alt="color4" style="background-color: #d2d7da ;"></a>
+                        <a href="#" class="miniatura colores" alt="color5" style="background-color: #dfe5b7;"></a>
+                        <a href="#" class="miniatura colores" alt="color6" style="background-color: #e18570;"></a>
+                    </section>
+                    <section class="contenedor-compra">
+                        <h2 class="precio">229 €</h2>
+                        <hr size="1">
+                        <section class="botones">
+                            <select name="cantidad" id="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button class="button-carrito">Add to Cart</button>
+                        </section>
+                        <p class="envio"><img src="images/icons/Delivery.svg" alt="Imagen camion" width="21"> Delivers
+                            29 Apr to <span>08923</span></p>
+                    </section>
+                </section>
+        </article>
+    </main>
+    <footer>
+        <ul class="redes list-style-none">
+            <li><a href="#"><img src="/images/icons/SM-x.svg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="/images/icons/SM-instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="/images/icons/SM-facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="/images/icons/SM-youtube.svg" alt="Youtube"></a></li>
+            <li><a href="#"><img src="/images/icons/SM-tiktok.svg" alt="Tiktok"></a></li>
+        </ul>
+        <ul class="nav-footer list-style-none">
+            <li class="bandera-desktop"><img src="/images/icons/Spain.svg" alt=""><a href="#">Spain</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Google Nest Commitment to Privacy</a></li>
+            <li><a href="#">Sales Terms</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li class="bandera-mobile"><a href="#">Spain</a><img src="/images/icons/Spain.svg" alt=""></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
