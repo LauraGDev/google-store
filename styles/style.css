@@ -40,24 +40,15 @@ hr {
     color: #58626B;
 }
 
+button {
+    cursor: pointer;
+}
+
 button,
 select,
 option {
     font-family: "Inter", sans-serif;
 }
-
-/* UTILIDADES */
-
-.list-style-none {
-    list-style: none;
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* HEADER */
 header {
@@ -101,6 +92,7 @@ header {
 @media screen and (max-width: 576px) {
     header {
         justify-content: flex-start;
+        padding: 0 18px;
     }
 
     .iconos {
@@ -151,7 +143,7 @@ main {
     align-items: center;
     margin-top: 15px;
     height: 600px;
-    width: 70%;
+    width: 68%;
 }
 
 .selector-foto {
@@ -184,7 +176,7 @@ main {
 }
 
 .ficha-producto {
-    width: 30%;
+    width: 32%;
 }
 
 .descripcion-producto h1 {
@@ -211,13 +203,12 @@ main {
 
 .contenedor-compra {
     background-color: #F8F9FA;
-    width: 100%;
     padding: 15px 20px;
     border-radius: 5px;   
 }
 
-.button-carrito {
-    width: 293px;
+.boton-carrito {
+    width: 100%;
     height: 52px;
     background-color: #1A73E8;
     color: #ffffff;
@@ -229,6 +220,7 @@ main {
 .botones{
     display: flex;
     justify-content: space-between;
+    gap: 11px;
     margin-top: 27px;
 }
 
@@ -239,7 +231,7 @@ main {
 }
 
 select {
-    width: 85px;
+    width: 77px;
     height: 52px ;
     background-color: #ffffff;
     border-radius: 5px;
@@ -291,6 +283,53 @@ select {
     
     .fotos {
         height: 500px;
+    }
+
+    .img-principal {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 576px){
+    main {
+        padding: 18px;
+    }
+
+    .descripcion-producto h1 {
+        font-size: 29px;
+    }
+    .fotos {
+        height: 281px;
+    }
+
+    .img-principal{
+        background-size: 85%;
+    }
+    .personalizacion{
+      display: flex;     
+      flex-direction: column;
+    } 
+    .selector-color, .contenedor-compra{
+        width: 100%;
+    }  
+    .selector-color{
+        margin-bottom: 0;
+    }
+    .contenedor-compra{
+        margin-top: 0;
+        width: 88%;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cantidad{
+        margin-bottom: 12px;
+    }
+    .boton-carrito
+    {
+        width: 100%;
+        margin-bottom: 2px;
+        
     }
 }
 
@@ -385,4 +424,17 @@ footer a {
         padding: 8px 5px 0 10px;
     }
 
+}
+
+
+/* UTILIDADES */
+
+.list-style-none {
+    list-style: none;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
