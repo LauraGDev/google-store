@@ -8,7 +8,7 @@
 .selector-color {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     gap: 6px;
     margin-bottom: 28px;
 }
@@ -17,53 +17,56 @@
     width: 100%;
 }
 
-.colores{
-width: 131px;
-height: 113px;
-border-radius: 5px;
-background-color: transparent;
-flex-wrap: wrap;
-margin: 0;
+.colores {
+    width: 131px;
+    height: 113px;
+    border-radius: 5px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
-.colores img{
-width: 73px;
-height: 79px;
-display: block;
+.colores img {
+    width: 73px;
+    height: 79px;
+    display: block;
 }
 
-.colores p{
-width: 100%;
-text-align: center;
+.colores p {
+    width: 100%;
+    text-align: center;
 }
 
-@media screen and (max-width: 811px){ 
+@media screen and (max-width: 811px) {
     .selector-color {
-        justify-content:flex-start;
+        justify-content: flex-start;
         height: 266px;
     }
-    .contenedor-compra{
+
+    .contenedor-compra {
         margin-top: 44px;
     }
 }
 
-@media screen and (max-width: 576px){ 
+@media screen and (max-width: 576px) {
 
-    .img-principal{
+    .img-principal {
         background-size: 65%;
     }
+
     .colores {
-        width: 99px;    
+        width: 99px;
 
     }
-    .selector-color{
+
+    .selector-color {
         height: 146px;
         margin-bottom: 0;
         justify-content: space-between;
     }
 
-    .contenedor-compra{
+    .contenedor-compra {
         margin-top: 29px;
     }
-    
+
 }
